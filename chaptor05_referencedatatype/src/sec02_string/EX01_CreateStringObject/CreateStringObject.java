@@ -1,4 +1,4 @@
-package sec02_string_EX01_CreateStringObject;
+package sec02_string.EX01_CreateStringObject;
 
 public class CreateStringObject {
 	public static void main(String[] args) {
