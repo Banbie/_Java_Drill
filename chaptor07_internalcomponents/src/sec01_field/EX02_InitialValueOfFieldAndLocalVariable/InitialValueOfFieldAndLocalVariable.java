@@ -13,15 +13,15 @@ class A {
 		System.out.println(m4);
 	}
 	
-	void printLocalVariable() {
+	//void printLocalVariable() {
 		//int k;
 		//System.out.println(k); //no init stack memory
-	}
+	//}
 }
 
 public class InitialValueOfFieldAndLocalVariable {
 	public static void main(String[] args) {
 		A a = new A();
-		a.printFieldValue();
+		a.printFieldValue(); // use initialized field variable
 	}
 }
