@@ -1,6 +1,6 @@
 package sec02_externalclass.EX01_ExternalClass_1;
 
-class A{ //공개 범위 default
+class A{ // default modifier
 	int m = 3;
 	int n = 4;
 	
