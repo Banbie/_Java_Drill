@@ -49,7 +49,7 @@ class B {
 
 public class ObjectMethod_hashcode {
 	public static void main(String[] args) {
-		HashMap<Integer, String> hm1 = new HashMap<>();
+		HashMap<Integer, String> hm1 = new HashMap<>(); //HashMap은 저장시 value를 toString method로 String value를 일치해서 저장
 		hm1.put(1, "Data1");
 		hm1.put(1, "Data2");
 		hm1.put(2, "Data3");
