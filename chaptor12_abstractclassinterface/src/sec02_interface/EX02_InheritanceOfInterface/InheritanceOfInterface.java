@@ -9,7 +9,7 @@ interface B {
 }
 
 class C implements A {
-	public void abc() { //class default visibility modifier is "default" visibility can't be reduce
+	public void abc() { //class default visibility modifier is "default" visibility can't be reduced
 		System.out.println("Class C");
 	}
 }
