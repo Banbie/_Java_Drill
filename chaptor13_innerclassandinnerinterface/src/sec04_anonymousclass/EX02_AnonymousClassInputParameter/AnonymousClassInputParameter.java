@@ -20,18 +20,18 @@ public class AnonymousClassInputParameter {
 	public static void main(String[] args) {
 		C c = new C();
 		A a = new B();
-		c.cde(a); // Class O, Variable O
+		c.cde(a); // 1. Class O, Variable O
 		
-		c.cde(new B()); //Class O, Variable X
+		c.cde(new B()); // 2. Class O, Variable X
 		
-		A a1 = new A() { //Class X, Variable O
+		A a1 = new A() { // 3. Class X, Variable O
 			public void abc() {
 				System.out.println("Input Parameter Class");
 			}
 		};
 		c.cde(a1);
 		
-		c.cde(new A() { //Class X, Variable X
+		c.cde(new A() { // 4. Class X, Variable X
 			public void abc() {
 				System.out.println("Input Parameter Class");
 			}
