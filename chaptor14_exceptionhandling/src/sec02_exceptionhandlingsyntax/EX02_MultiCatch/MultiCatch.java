@@ -38,5 +38,15 @@ public class MultiCatch {
 		finally {
 			System.out.println("cal end");
 		}
+		try {
+			System.out.println(3/0);
+			int num = Integer.parseInt("10A");
+		}
+		catch (ArithmeticException  | NumberFormatException e) {
+			System.out.println("can't divide zero or not incorrect integer");
+		}
+		finally {
+			System.out.println("cal end");
+		}
 	}
 }
