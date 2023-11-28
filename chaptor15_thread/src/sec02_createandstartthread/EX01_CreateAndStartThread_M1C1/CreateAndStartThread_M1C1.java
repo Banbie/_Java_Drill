@@ -21,7 +21,7 @@ public class CreateAndStartThread_M1C1 {
 		int[] intArray = {1, 2, 3, 4, 5};
 		
 		for(int i : intArray) {
-			System.out.println("(video frame) " + i);
+			System.out.print("(video frame) " + i);
 			try {Thread.sleep(200);} catch (InterruptedException e) {}
 		}
 	}
