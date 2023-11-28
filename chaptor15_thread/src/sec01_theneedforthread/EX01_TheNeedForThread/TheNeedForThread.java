@@ -1,7 +1,6 @@
-package sec01_theneedforthread.Ex01_TheNeedForThread;
+package sec01_theneedforthread.EX01_TheNeedForThread;
 
 public class TheNeedForThread {
-	//singleThread
 	public static void main(String[] args) {
 		int[] intArray = {1, 2, 3, 4, 5};
 		String[] strArray = {"one", "two","three", "four", "five"};
