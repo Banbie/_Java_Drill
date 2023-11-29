@@ -1,4 +1,4 @@
-package sec02_createandstartthread.EX02_CreateAndStartThread_M2C1;
+package sec02_createandstartthread.EX03_CreateAndStartThread_M2C1;
 
 class SMIFileRunnable implements Runnable {
 	@Override
