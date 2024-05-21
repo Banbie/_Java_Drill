@@ -1,4 +1,4 @@
-package chap16_generic.sec01_theneedforgeneric.EX01_ProblemsBeforeGeneric;
+package sec01_theneedforgeneric.EX01_ProblemsBeforeGeneric;
 
 // Apple class & 담을 수 있는 Goods1 class
 class Apple {}
