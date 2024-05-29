@@ -1,7 +1,7 @@
 package sec05_inheritanceofgeneric.EX02_InheritanceGenericMethod;
 
 class Parent {
-	<T extends Number> void print(T t) {
+	<T extends Number> void print(T t) { // default
 		System.out.println(t);
 	}
 }
