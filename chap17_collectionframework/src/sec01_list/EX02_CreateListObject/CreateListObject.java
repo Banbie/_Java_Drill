@@ -20,7 +20,7 @@ public class CreateListObject {
 		List<String> aList8 = Arrays.asList("Hi", "Hello");
 		aList7.set(1, 7);
 		aList8.set(0, "Thanks");
-		aList7.add(5); // 약한 체크
+//		aList7.add(5); // 약한 체크 UnsupportedOperationException
 //		aList8.remove(0); // 약한 체크
 		System.out.println(aList7);
 		System.out.println(aList8);
