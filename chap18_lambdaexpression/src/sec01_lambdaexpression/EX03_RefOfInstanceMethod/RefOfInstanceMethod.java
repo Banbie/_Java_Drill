@@ -25,7 +25,7 @@ public class RefOfInstanceMethod {
 		};
 		// 3. 정의된 인스턴스 참조
 		B b = new B();
-		A a3 = b::bcd;
+		A a3 = b::bcd; // A 인터페이스 내부의 abc() 메서드는 참조 변수 b 내부 인스턴스 bcd()와 동일하다 -> 리턴 타입, 매개변수의 타입이 반드시 동일해야함
 		a1.abc();
 		a2.abc();
 		a3.abc();
