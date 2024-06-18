@@ -1,4 +1,4 @@
-package sec01_lambdaexpression.EX03_RefOfInstanceMethod;
+package sec01_lambdaexpression.EX03_RefOfInstanceMethod_Type1_1;
 
 interface A {
 	void abc();
@@ -8,7 +8,7 @@ class B {
 		System.out.println("Method");
 	}
 }
-public class RefOfInstanceMethod {
+public class RefOfInstanceMethod_Type1_1 {
 	public static void main(String[] args) {
 		// 1. 익명 이너 클래스
 		A a1 = new A() {
