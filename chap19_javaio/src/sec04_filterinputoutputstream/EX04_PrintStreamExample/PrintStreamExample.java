@@ -34,7 +34,8 @@ public class PrintStreamExample {
 			ps.printf("%d ",7).printf("%s %f", "안녕", 5.8);
 			ps.println();
 			ps.println();
-			//test
+			ps.println();
+			//test rename
 		} catch(IOException e) {}
 	}
 }
