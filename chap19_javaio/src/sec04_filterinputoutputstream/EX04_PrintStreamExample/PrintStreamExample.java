@@ -33,6 +33,8 @@ public class PrintStreamExample {
 			ps.print(3 + "안녕" + 12345 + "\n");
 			ps.printf("%d ",7).printf("%s %f", "안녕", 5.8);
 			ps.println();
+			ps.println();
+			//test
 		} catch(IOException e) {}
 	}
 }
